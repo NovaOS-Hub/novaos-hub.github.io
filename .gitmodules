@@ -1,0 +1,3 @@
+[submodule "try/desktop"]
+	path = try/desktop
+	url = https://github.com/NovaOS-Hub/desktop
