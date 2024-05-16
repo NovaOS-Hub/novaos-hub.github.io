@@ -9,6 +9,7 @@
     user-select: none;
     transition: transform 0.15s ease;
     -webkit-user-drag: none;
+    color:white;
 }
 
 *:not(.ui-resizable-handle, .ui-draggable-handle, .ui-draggable-handle *) {
@@ -216,4 +217,12 @@ html {
 
 .toastify b {
     font-weight: 900;
+}
+[aria-describedby="welcome-1"] {
+    min-width:70vw;
+    min-height: 270px; 
+}
+[aria-describedby="welcome-1"] iframe {
+    min-width:100%;
+    min-height: 250px !important; 
 }
